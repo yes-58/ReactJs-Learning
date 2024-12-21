@@ -1,0 +1,23 @@
+Parcel :
+--> Dev Build
+--> Create Local Server
+--> HMR = Hot Module Replacement (Automatically Reloading the page on saving the file).
+--> Parcel is using File Watching Algorithm - written in C++
+--> Caching - Faster builds
+--> Parcel also do image optimization (loading image and video in browser)
+--> Production Build : Do minification of file
+--> Do Bundling of your files.
+--> Parcel compressing the files.
+--> Do Consistent Hashing.
+--> Code Splitting.
+--> Differential Bundling (Support your app to run on older browser).
+--> Good Error Handling and give better error suggestion
+--> Diagonstic
+--> Tree Shaking - remove unused code.
+--> Different Dev and Production Bundles
+
+Note : With react, bundlers,webpack,parcel also help in making our react app faster.
+
+BrowserList : It is npm package used to make our app compatible for older version of browser. Add browserlist compatability in package.json. Website : browserlist.
+
+

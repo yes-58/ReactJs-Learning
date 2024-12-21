@@ -1,0 +1,6 @@
+1. What are the things make your react app faster? (Parcel and bundlers)
+2. Why parcel is fast? (It has parcel cache)
+3. How HMR is working?
+4. What is package.json, package_lock.json and node_modules?
+5. How parcel cache works?
+
