@@ -1,19 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const  heading = React.createElement('h1',{},"heading");
+const Title = ()=> {
+    return <h1 className="title">React Js Component composition : Inner Component</h1>
+}
 
-//React Element
-const jsxHeading = (
-    <h1 className="head">
-        JSX Heading in React
-    </h1>
-);
-
-
-
-
+const HeadingComponent = () => {
+    return <div className="heading">
+        <Title /> 
+        <h1>Outer Component</h1>
+    </div>
+}
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(jsxHeading)
+root.render(<HeadingComponent />)

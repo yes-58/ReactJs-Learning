@@ -3,4 +3,6 @@
 3. How HMR is working?
 4. What is package.json, package_lock.json and node_modules?
 5. How parcel cache works?
+6. What is babel and How it works behind the scenes?
+7. What is component and component composition?
 
