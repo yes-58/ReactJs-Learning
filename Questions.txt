@@ -5,4 +5,3 @@
 5. How parcel cache works?
 6. What is babel and How it works behind the scenes?
 7. What is component and component composition?
-
